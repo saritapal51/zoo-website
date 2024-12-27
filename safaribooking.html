@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHAAN ECO TOURISM WEBSITE</title>
+    <link rel="icon" type="image/png" href="./images/titlelogo.png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paw"></i> ECO TOURISM</a>
+
+        <nav class="navbar">
+            <a href="index.html" class="nav__logo">
+              <img src="assets/img/logo.svg" alt="" class="nav__logo-img" />
+            </a>
+            <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link active-link">Home</a>
+                </li>
+      
+                <li class="nav__item">
+                  <a href="aboutus.html" class="nav__link">about us</a>
+                </li>
+      
+                <li class="nav__item">
+                  <a href="carbetthotels.html" class="nav__link">Hotels</a>
+                </li>
+      
+                <li class="nav__item">
+                  <a href="towerpakage.html" class="nav__link">tower pakage</a>
+                </li>
+      
+                <li class="nav__item">
+                  <a href="safaribooking.html" class="nav__link">safari booking online</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="payment.html" class="nav__link">payment</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        
+        <div class="icons">
+            <!-- <div id="login-btn" class="fas fa-user"></div> -->
+            <a href="#profile">
+                <img src="./images/user.jpg" alt="User Profile" style="width: 40px; height: 40px;margin-left: 30px; border-radius: 50%; vertical-align: middle" id="login-btn"  id="menu-btn" class="fas fa-bars";>
+            </a>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- login form -->
+
+    <form action="" class="login-form">
+
+        <h3>login form</h3>
+        
+        <input type="email" placeholder="Enter your email" class="box">
+        <input type="password" placeholder="Enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <a href="#" class="btn">login</a>
+
+    </form>
+
+    </header>
+
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>enjoy the wonderful <br>
+            adventure of the <br> animals</h3>
+            <a href="#" class="btn">Online Booking</a>
+        </div>
+
+        <img src="images/bottom_wave.png" alt="" class="wave">
+
+    </section>
+
+ 
+    <!-- Online Booking -->
+
+    <section class="pricing" id="booking">
+
+        <h2 class="heading">Safari Booking Online</h2>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/pricing1.png" alt="">
+                <h3>Safari Booking</h3>
+                <p>We Offer Best Services</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/pricing2.png" alt="">
+                <h3>Tour Booking</h3>
+                <p>We Offer Best Services</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/pricing1.png" alt="">
+                <h3>Hotel Booking</h3>
+                <p>We Offer Best Services</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+
+        </div>
+
+    </section>
+ <!-- end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="corbett-safari-booking">
+      <h2 class="heading">Safari Booking form</h2>
+  
+      <form id="bookingForm">
+        <div class="row form-row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="name"><i class="fa fa-user"></i> Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone"><i class="fa fa-phone"></i> Phone</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Enter phone number" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="guests"><i class="fa fa-users"></i> Number of Guests</label>
+                    <select class="form-control" id="guests" required>
+                        <option value="">Select number of guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6 Guests</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="checkin"><i class="fa fa-calendar"></i> Check-in Date</label>
+                    <input type="date" class="form-control" id="checkin" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="checkout"><i class="fa fa-calendar"></i> Check-out Date</label>
+                    <input type="date" class="form-control" id="checkout" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="roomType"><i class="fa fa-bed"></i> Room Type</label>
+                    <select class="form-control" id="roomType" required>
+                        <option value="">Select room type</option>
+                        <option value="single">Single Room</option>
+                        <option value="double">Double Room</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="requests"><i class="fa fa-pencil"></i> Special Requests</label>
+                    <textarea class="form-control" id="requests" rows="4" placeholder="Any special requests?" maxlength="300"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn-submit">Submit Booking</button>
+    </form>
+  </section>
+  
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-paw"></i> Tourism</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="links"><i class="fas fa-clock"></i>monday - friday</p>
+                <p class="days">7:00AM - 11:00PM</p>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> 1245-147-2589</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> 1245-147-2589</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> info@Mohaaneco.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> karachi, pakistan</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>about us</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Hotels</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>tower pakage</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>safari booking online</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>payment</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <a href="#" class="btn">subscribe</a>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="credit">&copy; 2022 touristlife. All rights reserved by <a href="#" class="link">Tourism Zone</a></div>
+
+    </section>
+
+
+<!-- end -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

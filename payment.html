@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHAAN ECO TOURISM WEBSITE</title>
+    <link rel="icon" type="image/png" href="./images/titlelogo.png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paw"></i> ECO TOURISM</a>
+
+        <nav class="navbar">
+            <!-- <a href="index.html" class="nav__logo">
+              <img src="assets/img/logo.svg" alt="" class="nav__logo-img" />
+            </a> -->
+            <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link active-link">Home</a>
+                </li>
+      
+                <li class="nav__item">
+                  <a href="aboutus.html" class="nav__link">about us</a>
+                </li>
+      
+                <li class="nav__item">
+                  <a href="carbetthotels.html" class="nav__link">Hotels</a>
+                </li>
+      
+                <li class="nav__item">
+                  <a href="towerpakage.html" class="nav__link">tower pakage</a>
+                </li>
+      
+                <li class="nav__item">
+                  <a href="safaribooking.html" class="nav__link">safari booking online</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="payment.html" class="nav__link">payment</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        
+        <div class="icons">
+            <!-- <div id="login-btn" class="fas fa-user"></div> -->
+            <a href="#profile">
+              <img src="./images/user.jpg" alt="User Profile" style="width: 40px; height: 40px;margin-left: 30px; border-radius: 50%; vertical-align: middle" id="login-btn"  id="menu-btn" class="fas fa-bars";>
+          </a>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- login form -->
+
+    <form action="" class="login-form">
+
+        <h3>login form</h3>
+        
+        <input type="email" placeholder="Enter your email" class="box">
+        <input type="password" placeholder="Enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <a href="#" class="btn">login</a>
+
+    </form>
+
+    </header>
+<!-- end -->
+<section class="payment-form" id="payment-info">
+    <h2 class="heading">Online Payment Method</h2>
+    <div class="container">
+		<div class="left">
+			<p>Payment methods</p>
+			<hr style="border:1px solid #ccc; margin: 0 15px;">
+			<div class="methods">
+				<div onclick="doFun()" id="tColorA" style="color: greenyellow;"><i class="fa-solid fa-credit-card" style="color: greenyellow;"></i> Payment by card</div>
+				<div onclick="doFunA()" id="tColorB"><i class="fa-solid fa-building-columns"></i> Internet banks</div>
+				<div onclick="doFunB()" id="tColorC"><i class="fa-solid fa-wallet"></i> Apple/Google pay</div>
+			</div>
+			<hr style="border:1px solid #ccc; margin: 0 15px;">
+		</div>
+		<div class="center">
+			<a href="https://www.shift4shop.com/credit-card-logos.html"><img alt="Credit Card Logos" title="Credit Card Logos" src="https://www.shift4shop.com/images/credit-card-logos/cc-lg-4.png" width="250" height="auto"/></a>
+			<hr style="border:1px solid #ccc; margin: 0 15px;">
+
+			<div class="card-details">
+				<form>
+					<p>Card number</p>
+					<div class="c-number" id="c-number">
+						<input id="number" class="cc-number" placeholder="Card number" maxlength="19" required>
+						<i class="fa-solid fa-credit-card" style="margin: 0;"></i>
+					</div>
+
+					<div class="c-details">
+						<div>
+							<p>Expiry date</p>
+							<input id="e-date" class="cc-exp" placeholder="MM/YY" required maxlength="5" required>
+						</div>
+						<div>
+							<p>CVV</p>
+							<div class="cvv-box" id="cvv-box">
+								<input id="cvv" class="cc-cvv" placeholder="CVV" required maxlength="3" required>
+								<i class="fa-solid fa-circle-question" title="3 digits on the back of the card" style="cursor: pointer;"></i>
+							</div>
+						</div>
+					</div>
+					<div class="email">
+						<p>Email</p>
+						<input type="email" placeholder="example@email.com" id="email" required>
+					</div>
+					<button>PAY NOW</button>
+				</form>
+			</div>
+		</div>
+
+
+		<div class="right">
+			<p>Order information</p>
+			<hr style="border:1px solid #ccc; margin: 0 15px;">
+			<div class="details">
+				<div style="font-weight: bold; padding: 3px 0;">Order discription</div>
+				<div style="padding: 3px 0;">Test payment</div>
+			</div>
+			<hr style="border:1px solid #ccc; margin: 0 15px;">
+			<a href="https://www.shift4shop.com/credit-card-logos.html"><img alt="Credit Card Logos" title="Credit Card Logos" src="https://www.shift4shop.com/images/credit-card-logos/cc-lg-4.png" width="100%" height="auto" /></a>
+		</div>
+		
+	</div>
+</section>
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-paw"></i> Tourism</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="links"><i class="fas fa-clock"></i>monday - friday</p>
+                <p class="days">7:00AM - 11:00PM</p>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> 1245-147-2589</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> 1245-147-2589</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> info@Mohaaneco.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> karachi, pakistan</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>about us</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Hotels</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>tower pakage</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>safari booking online</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>payment</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <a href="#" class="btn">subscribe</a>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="credit">&copy; 2022 touristlife. All rights reserved by <a href="#" class="link">Tourism Zone</a></div>
+
+    </section>
+
+
+
+
+  <!-- end -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
